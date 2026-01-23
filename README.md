@@ -28,6 +28,14 @@ These metrics measure how effectively the airline manages its cash and inventory
     * [cite_start]*Insight:* Wizz Air delays payments to suppliers for over 3 months[cite: 1278]. [cite_start]While this preserves cash flow, it risks straining supplier relationships[cite: 1278].
 
 ---
+## 🚀 Strategic Recommendations
+
+Based on the ratio analysis, the following financial strategies are proposed:
+
+1.  **Optimize Collections:** The **41-day** collection period (DSO) is relatively high for an airline. Implementing automated invoicing could shorten this cycle to improve cash inflows.
+2.  **Supplier Relationship Management:** While a **95-day** payment period (CPP) boosts cash on hand, it is unsustainable long-term. Exploring early-payment discounts with fuel suppliers could reduce operating costs.
+3.  **Inventory Control:** Maintain the current **12-day** stock turnover rate to prevent excess capital from being locked in unused spare parts or fuel hedges.
+ ------
 
 ## 🛠 Methodology & Technical Logic
 
@@ -50,10 +58,3 @@ To automate this analysis, the following logic was applied to the financial data
 = (Trade_Payables / Total_Operating_Expenses) * 365
 // Result: 95.49 Days. Indicates aggressive cash retention strategy[cite: 1276].
 
-## 🚀 Strategic Recommendations
-
-Based on the ratio analysis, the following financial strategies are proposed:
-
-1.  **Optimize Collections:** The **41-day** collection period (DSO) is relatively high for an airline. Implementing automated invoicing could shorten this cycle to improve cash inflows.
-2.  **Supplier Relationship Management:** While a **95-day** payment period (CPP) boosts cash on hand, it is unsustainable long-term. Exploring early-payment discounts with fuel suppliers could reduce operating costs.
-3.  **Inventory Control:** Maintain the current **12-day** stock turnover rate to prevent excess capital from being locked in unused spare parts or fuel hedges.
