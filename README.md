@@ -3,9 +3,9 @@
 **Submitted by:** Bibinandh Ananthakrishnan (Reg No: 202388718)
 
 ## 📌 Executive Summary
-This project evaluates the financial stability and operational efficiency of **Wizz Air Holdings Plc**, a FTSE-listed "Super Affordable Airline" based in Hungary[cite: 1226, 1227]. Using the 2022 audited financial statements, the analysis focuses on the airline's ability to meet short-term obligations and manage its working capital amidst a competitive aviation landscape.
+This project evaluates the financial stability and operational efficiency of **Wizz Air Holdings Plc**, a FTSE-listed "Super Affordable Airline" based in Hungary. Using the 2022 audited financial statements, the analysis focuses on the airline's ability to meet short-term obligations and manage its working capital amidst a competitive aviation landscape.
 
-The assessment reveals a company with **strong liquidity** (Current Ratio: 1.14) [cite: 1256] [cite_start]but an aggressive creditor strategy, taking ~95 days to pay suppliers[cite: 1277].
+The assessment reveals a company with **strong liquidity** (Current Ratio: 1.14) but an aggressive creditor strategy, taking ~95 days to pay suppliers.
 
 ---
 
@@ -14,18 +14,18 @@ The assessment reveals a company with **strong liquidity** (Current Ratio: 1.14)
 ### 1. Liquidity Ratios (Solvency)
 These metrics assess Wizz Air's ability to cover its short-term debts.
 * **Current Ratio:** **1.14**
-  *Insight:* With €1.57B in Current Assets vs €1.37B in Liabilities[cite: 1252, 1253], Wizz Air is in a healthy position to cover immediate debts.
+  *Insight:* With €1.57B in Current Assets vs €1.37B in Liabilities, Wizz Air is in a healthy position to cover immediate debts.
 * **Quick Ratio (Acid Test):** **1.09**
-    *Insight:* Even after removing Inventory (fuel/spare parts) from the equation, the company remains liquid, with $1.09 of liquid assets for every $1 of debt[cite: 1263, 1264].
+    *Insight:* Even after removing Inventory (fuel/spare parts) from the equation, the company remains liquid, with $1.09 of liquid assets for every $1 of debt.
 
 ### 2. Efficiency Ratios (Activity)
 These metrics measure how effectively the airline manages its cash and inventory.
 * **Stock Turnover:** **12.2 Days**
-    *Insight:* Extremely efficient inventory management[cite: 1296]. The airline turns over its stock (fuel/supplies) roughly every 12 days, preventing capital from being tied up.
+    *Insight:* Extremely efficient inventory management. The airline turns over its stock (fuel/supplies) roughly every 12 days, preventing capital from being tied up.
 * **Debtor Payment Period (DSO):** **41.1 Days**
-    *Insight:* It takes ~41 days to collect revenue from partners/agencies[cite: 1272].
+    *Insight:* It takes ~41 days to collect revenue from partners/agencies.
 * **Creditor Payment Period (CPP):** **95.5 Days**
-   *Insight:* Wizz Air delays payments to suppliers for over 3 months[cite: 1278]. [cite_start]While this preserves cash flow, it risks straining supplier relationships[cite: 1278].
+   *Insight:* Wizz Air delays payments to suppliers for over 3 months. While this preserves cash flow, it risks straining supplier relationships.
 
 ---
 ## 🚀 Strategic Recommendations
@@ -53,7 +53,7 @@ To automate this analysis, the following logic was applied to the financial data
 **1. Liquidity Assessment**
 ```excel
 = (Current_Assets - Inventory) / Current_Liabilities
-[cite_start]// Result: 1.093 (Quick Ratio) indicates strong short-term solvency
+// Result: 1.093 (Quick Ratio) indicates strong short-term solvency
 
 = (Trade_Payables / Total_Operating_Expenses) * 365
 // Result: 95.49 Days. Indicates aggressive cash retention strategy.
